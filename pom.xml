@@ -12,6 +12,7 @@
 	<artifactId>springBoot_Demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springBoot_Demo</name>
+	<packaging>war</packaging>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -62,6 +63,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>JenkinsCiCd</finalName>
 	</build>
 
 </project>
